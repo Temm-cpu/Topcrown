@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  /* margin: 10px auto; */
+  border: 2px solid rgb(163, 110, 163);
+  padding: 2rem;
+  background-color: rgb(163, 64, 163);
+}
+article {
+  background-image: linear-gradient(
+      rgba(134, 131, 131, 0.6),
+      rgba(7, 7, 7, 0.6)
+    ),
+    url(images/dent3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* height: 100vh; */
+  color: rgba(255, 255, 255, 0.788);
+  font-size:larger;
+}
+a {
+  text-decoration: none;
+  color: burlywood;
+}
+.moreInfo{
+  margin-top: 5px;
+}
+.contact{
+  border: 2px solid burlywood;
+  background-color: burlywood;
+}
